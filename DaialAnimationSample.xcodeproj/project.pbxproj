@@ -14,6 +14,7 @@
 		8C48037C1DC5948C00CD68A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C48037A1DC5948C00CD68A1 /* LaunchScreen.storyboard */; };
 		8C4803871DC5948D00CD68A1 /* DaialAnimationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4803861DC5948D00CD68A1 /* DaialAnimationSampleTests.swift */; };
 		8C4803921DC5948D00CD68A1 /* DaialAnimationSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4803911DC5948D00CD68A1 /* DaialAnimationSampleUITests.swift */; };
+		8C4803A01DC5949F00CD68A1 /* DaialLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48039F1DC5949F00CD68A1 /* DaialLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8C48038D1DC5948D00CD68A1 /* DaialAnimationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaialAnimationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4803911DC5948D00CD68A1 /* DaialAnimationSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaialAnimationSampleUITests.swift; sourceTree = "<group>"; };
 		8C4803931DC5948D00CD68A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C48039F1DC5949F00CD68A1 /* DaialLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DaialLayer.swift; path = ../DaialLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8C4803701DC5948C00CD68A1 /* DaialAnimationSample */ = {
 			isa = PBXGroup;
 			children = (
+				8C48039F1DC5949F00CD68A1 /* DaialLayer.swift */,
 				8C4803711DC5948C00CD68A1 /* AppDelegate.swift */,
 				8C4803731DC5948C00CD68A1 /* ViewController.swift */,
 				8C4803751DC5948C00CD68A1 /* Main.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					8C48036D1DC5948C00CD68A1 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D2R737286R;
 						ProvisioningStyle = Automatic;
 					};
 					8C4803811DC5948D00CD68A1 = {
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4803A01DC5949F00CD68A1 /* DaialLayer.swift in Sources */,
 				8C4803741DC5948C00CD68A1 /* ViewController.swift in Sources */,
 				8C4803721DC5948C00CD68A1 /* AppDelegate.swift in Sources */,
 			);
@@ -410,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D2R737286R;
 				INFOPLIST_FILE = DaialAnimationSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.blogspot.rnsm504.DaialAnimationSample;
@@ -422,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D2R737286R;
 				INFOPLIST_FILE = DaialAnimationSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.blogspot.rnsm504.DaialAnimationSample;
