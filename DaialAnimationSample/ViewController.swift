@@ -131,8 +131,10 @@ class ViewController: UIViewController {
                 }
             }
             //sinの計算でラジアンを算出
-            let radian = (sin((1/_orignalRadius)*(base/2)) * CGFloat(180/M_PI) * 2) * CGFloat(M_PI / 180)
+//            let radian = (sinh((1/_orignalRadius)*(base/2)) * CGFloat(180/M_PI) * 2) * CGFloat(M_PI / 180)
+            let radian = sinh((1/_orignalRadius)*(base/2)) * 2
             
+            NSLog("%f %f %f", radian,  sinh((1/_orignalRadius)*(base/2)), (1/_orignalRadius)*(base/2))
             if(radian > 0) {
                 //アニメーション
                 rotateAnimeation(radian, clockwise: clockwise)
