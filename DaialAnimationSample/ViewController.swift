@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         subLayer = DaialLayer()
-         subLayer.frame = CGRect(x: 100, y: 150, width: 200, height: 200)
+         subLayer.frame = CGRect(x: self.view.frame.midX - 100, y: self.view.frame.midY - 100, width: 200, height: 200)
         
         self.view.layer.addSublayer(subLayer)
         subLayer.setNeedsDisplay()
