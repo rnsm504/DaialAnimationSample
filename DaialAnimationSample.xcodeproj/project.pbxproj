@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C4803721DC5948C00CD68A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4803711DC5948C00CD68A1 /* AppDelegate.swift */; };
+		8C4803741DC5948C00CD68A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4803731DC5948C00CD68A1 /* ViewController.swift */; };
+		8C4803771DC5948C00CD68A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4803751DC5948C00CD68A1 /* Main.storyboard */; };
+		8C4803791DC5948C00CD68A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4803781DC5948C00CD68A1 /* Assets.xcassets */; };
+		8C48037C1DC5948C00CD68A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C48037A1DC5948C00CD68A1 /* LaunchScreen.storyboard */; };
+		8C4803871DC5948D00CD68A1 /* DaialAnimationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4803861DC5948D00CD68A1 /* DaialAnimationSampleTests.swift */; };
+		8C4803921DC5948D00CD68A1 /* DaialAnimationSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4803911DC5948D00CD68A1 /* DaialAnimationSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C4803831DC5948D00CD68A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C4803661DC5948C00CD68A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C48036D1DC5948C00CD68A1;
+			remoteInfo = DaialAnimationSample;
+		};
+		8C48038E1DC5948D00CD68A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C4803661DC5948C00CD68A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C48036D1DC5948C00CD68A1;
+			remoteInfo = DaialAnimationSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C48036E1DC5948C00CD68A1 /* DaialAnimationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaialAnimationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4803711DC5948C00CD68A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C4803731DC5948C00CD68A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C4803761DC5948C00CD68A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C4803781DC5948C00CD68A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C48037B1DC5948C00CD68A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C48037D1DC5948C00CD68A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4803821DC5948D00CD68A1 /* DaialAnimationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaialAnimationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4803861DC5948D00CD68A1 /* DaialAnimationSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaialAnimationSampleTests.swift; sourceTree = "<group>"; };
+		8C4803881DC5948D00CD68A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C48038D1DC5948D00CD68A1 /* DaialAnimationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaialAnimationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4803911DC5948D00CD68A1 /* DaialAnimationSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaialAnimationSampleUITests.swift; sourceTree = "<group>"; };
+		8C4803931DC5948D00CD68A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C48036B1DC5948C00CD68A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C48037F1DC5948D00CD68A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C48038A1DC5948D00CD68A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C4803651DC5948C00CD68A1 = {
+			isa = PBXGroup;
+			children = (
+				8C4803701DC5948C00CD68A1 /* DaialAnimationSample */,
+				8C4803851DC5948D00CD68A1 /* DaialAnimationSampleTests */,
+				8C4803901DC5948D00CD68A1 /* DaialAnimationSampleUITests */,
+				8C48036F1DC5948C00CD68A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C48036F1DC5948C00CD68A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C48036E1DC5948C00CD68A1 /* DaialAnimationSample.app */,
+				8C4803821DC5948D00CD68A1 /* DaialAnimationSampleTests.xctest */,
+				8C48038D1DC5948D00CD68A1 /* DaialAnimationSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C4803701DC5948C00CD68A1 /* DaialAnimationSample */ = {
+			isa = PBXGroup;
+			children = (
+				8C4803711DC5948C00CD68A1 /* AppDelegate.swift */,
+				8C4803731DC5948C00CD68A1 /* ViewController.swift */,
+				8C4803751DC5948C00CD68A1 /* Main.storyboard */,
+				8C4803781DC5948C00CD68A1 /* Assets.xcassets */,
+				8C48037A1DC5948C00CD68A1 /* LaunchScreen.storyboard */,
+				8C48037D1DC5948C00CD68A1 /* Info.plist */,
+			);
+			path = DaialAnimationSample;
+			sourceTree = "<group>";
+		};
+		8C4803851DC5948D00CD68A1 /* DaialAnimationSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C4803861DC5948D00CD68A1 /* DaialAnimationSampleTests.swift */,
+				8C4803881DC5948D00CD68A1 /* Info.plist */,
+			);
+			path = DaialAnimationSampleTests;
+			sourceTree = "<group>";
+		};
+		8C4803901DC5948D00CD68A1 /* DaialAnimationSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C4803911DC5948D00CD68A1 /* DaialAnimationSampleUITests.swift */,
+				8C4803931DC5948D00CD68A1 /* Info.plist */,
+			);
+			path = DaialAnimationSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C48036D1DC5948C00CD68A1 /* DaialAnimationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4803961DC5948D00CD68A1 /* Build configuration list for PBXNativeTarget "DaialAnimationSample" */;
+			buildPhases = (
+				8C48036A1DC5948C00CD68A1 /* Sources */,
+				8C48036B1DC5948C00CD68A1 /* Frameworks */,
+				8C48036C1DC5948C00CD68A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaialAnimationSample;
+			productName = DaialAnimationSample;
+			productReference = 8C48036E1DC5948C00CD68A1 /* DaialAnimationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C4803811DC5948D00CD68A1 /* DaialAnimationSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4803991DC5948D00CD68A1 /* Build configuration list for PBXNativeTarget "DaialAnimationSampleTests" */;
+			buildPhases = (
+				8C48037E1DC5948D00CD68A1 /* Sources */,
+				8C48037F1DC5948D00CD68A1 /* Frameworks */,
+				8C4803801DC5948D00CD68A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C4803841DC5948D00CD68A1 /* PBXTargetDependency */,
+			);
+			name = DaialAnimationSampleTests;
+			productName = DaialAnimationSampleTests;
+			productReference = 8C4803821DC5948D00CD68A1 /* DaialAnimationSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C48038C1DC5948D00CD68A1 /* DaialAnimationSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C48039C1DC5948D00CD68A1 /* Build configuration list for PBXNativeTarget "DaialAnimationSampleUITests" */;
+			buildPhases = (
+				8C4803891DC5948D00CD68A1 /* Sources */,
+				8C48038A1DC5948D00CD68A1 /* Frameworks */,
+				8C48038B1DC5948D00CD68A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C48038F1DC5948D00CD68A1 /* PBXTargetDependency */,
+			);
+			name = DaialAnimationSampleUITests;
+			productName = DaialAnimationSampleUITests;
+			productReference = 8C48038D1DC5948D00CD68A1 /* DaialAnimationSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C4803661DC5948C00CD68A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Masanori Kuze";
+				TargetAttributes = {
+					8C48036D1DC5948C00CD68A1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					8C4803811DC5948D00CD68A1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C48036D1DC5948C00CD68A1;
+					};
+					8C48038C1DC5948D00CD68A1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C48036D1DC5948C00CD68A1;
+					};
+				};
+			};
+			buildConfigurationList = 8C4803691DC5948C00CD68A1 /* Build configuration list for PBXProject "DaialAnimationSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C4803651DC5948C00CD68A1;
+			productRefGroup = 8C48036F1DC5948C00CD68A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C48036D1DC5948C00CD68A1 /* DaialAnimationSample */,
+				8C4803811DC5948D00CD68A1 /* DaialAnimationSampleTests */,
+				8C48038C1DC5948D00CD68A1 /* DaialAnimationSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C48036C1DC5948C00CD68A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C48037C1DC5948C00CD68A1 /* LaunchScreen.storyboard in Resources */,
+				8C4803791DC5948C00CD68A1 /* Assets.xcassets in Resources */,
+				8C4803771DC5948C00CD68A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4803801DC5948D00CD68A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C48038B1DC5948D00CD68A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C48036A1DC5948C00CD68A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4803741DC5948C00CD68A1 /* ViewController.swift in Sources */,
+				8C4803721DC5948C00CD68A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C48037E1DC5948D00CD68A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4803871DC5948D00CD68A1 /* DaialAnimationSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4803891DC5948D00CD68A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4803921DC5948D00CD68A1 /* DaialAnimationSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C4803841DC5948D00CD68A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C48036D1DC5948C00CD68A1 /* DaialAnimationSample */;
+			targetProxy = 8C4803831DC5948D00CD68A1 /* PBXContainerItemProxy */;
+		};
+		8C48038F1DC5948D00CD68A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C48036D1DC5948C00CD68A1 /* DaialAnimationSample */;
+			targetProxy = 8C48038E1DC5948D00CD68A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C4803751DC5948C00CD68A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C4803761DC5948C00CD68A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C48037A1DC5948C00CD68A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C48037B1DC5948C00CD68A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C4803941DC5948D00CD68A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C4803951DC5948D00CD68A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C4803971DC5948D00CD68A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DaialAnimationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.blogspot.rnsm504.DaialAnimationSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8C4803981DC5948D00CD68A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DaialAnimationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.blogspot.rnsm504.DaialAnimationSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8C48039A1DC5948D00CD68A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DaialAnimationSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.blogspot.rnsm504.DaialAnimationSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaialAnimationSample.app/DaialAnimationSample";
+			};
+			name = Debug;
+		};
+		8C48039B1DC5948D00CD68A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DaialAnimationSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.blogspot.rnsm504.DaialAnimationSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaialAnimationSample.app/DaialAnimationSample";
+			};
+			name = Release;
+		};
+		8C48039D1DC5948D00CD68A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DaialAnimationSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.blogspot.rnsm504.DaialAnimationSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DaialAnimationSample;
+			};
+			name = Debug;
+		};
+		8C48039E1DC5948D00CD68A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DaialAnimationSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.blogspot.rnsm504.DaialAnimationSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DaialAnimationSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C4803691DC5948C00CD68A1 /* Build configuration list for PBXProject "DaialAnimationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4803941DC5948D00CD68A1 /* Debug */,
+				8C4803951DC5948D00CD68A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4803961DC5948D00CD68A1 /* Build configuration list for PBXNativeTarget "DaialAnimationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4803971DC5948D00CD68A1 /* Debug */,
+				8C4803981DC5948D00CD68A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C4803991DC5948D00CD68A1 /* Build configuration list for PBXNativeTarget "DaialAnimationSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C48039A1DC5948D00CD68A1 /* Debug */,
+				8C48039B1DC5948D00CD68A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C48039C1DC5948D00CD68A1 /* Build configuration list for PBXNativeTarget "DaialAnimationSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C48039D1DC5948D00CD68A1 /* Debug */,
+				8C48039E1DC5948D00CD68A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C4803661DC5948C00CD68A1 /* Project object */;
+}
