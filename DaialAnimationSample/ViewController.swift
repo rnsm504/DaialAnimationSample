@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     var subLayer : DaialLayer!
     
-    var _centerPoint : CGPoint = CGPoint(x: 200, y: 250)
+    var _centerPoint : CGPoint = CGPoint(x: 200, y: 200)
     var _radius : CGFloat! = 0
     var _previousPoint: CGPoint!
     var _orignalRadius : CGFloat = 100
@@ -22,7 +22,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         subLayer = DaialLayer()
-         subLayer.frame = CGRect(x: self.view.frame.midX - 100, y: self.view.frame.midY - 100, width: 200, height: 200)
+        subLayer.frame = CGRect(x: self.view.frame.midX - 100, y: self.view.frame.midY - 100, width: 200, height: 200)
+        _centerPoint = CGPoint(x: self.view.frame.midX, y: self.view.frame.midY)
         
         self.view.layer.addSublayer(subLayer)
         subLayer.setNeedsDisplay()
@@ -94,14 +95,47 @@ class ViewController: UIViewController {
         let tmpPoint = CGPoint(x: (point.x * hiritu), y: (point.y * hiritu))
         //前回と今回のポイントの距離（斜辺）を算出して対象の円周上で作った斜辺に比率を直す
         let base = getHypotenuse(_previousPoint, point2: tmpPoint) * (_radius/_orignalRadius)
-        
+
         if(base != 0){
+            //方向
+            var clockwise = true
+            
+            //270〜360度
+            if(_previousPoint.x > _centerPoint.x && _previousPoint.y < _centerPoint.y) {
+                //
+                if(point.x == _previousPoint.x) {
+                    clockwise = point.y > _previousPoint.y ? true : false
+                } else {
+                    clockwise = point.x > _previousPoint.x ? true : false
+                }
+                //0〜90度
+            } else if(_previousPoint.x > _centerPoint.x && _previousPoint.y > _centerPoint.y) {
+                if(point.x == _previousPoint.x) {
+                    clockwise = point.y > _previousPoint.y ? true : false
+                } else {
+                    clockwise = point.x > _previousPoint.x ? false : true
+                }
+                //90〜180度
+            } else if(_previousPoint.x < _centerPoint.x && _previousPoint.y > _centerPoint.y) {
+                if(point.x == _previousPoint.x) {
+                    clockwise = point.y > _previousPoint.y ? false : true
+                } else {
+                    clockwise = point.x > _previousPoint.x ? false : true
+                }
+                //180〜270度
+            } else {
+                if(point.x == _previousPoint.x) {
+                    clockwise = point.y > _previousPoint.y ? false : true
+                } else {
+                    clockwise = point.x > _previousPoint.x ? true : false
+                }
+            }
             //sinの計算でラジアンを算出
             let radian = (sin((1/_orignalRadius)*(base/2)) * CGFloat(180/M_PI) * 2) * CGFloat(M_PI / 180)
             
             if(radian > 0) {
                 //アニメーション
-                rotateAnimeation(radian, fin: fin)
+                rotateAnimeation(radian, clockwise: clockwise)
              }
         }
         
@@ -118,7 +152,7 @@ class ViewController: UIViewController {
     }
     
     //アニメーション
-    func rotateAnimeation(_ angle : CGFloat, fin: Bool = false) {
+    func rotateAnimeation(_ angle : CGFloat, clockwise: Bool = true) {
         
 //        let interval = fin ? 0 : 1 * Double(angle) * Double(180 / M_PI)
         
@@ -126,8 +160,7 @@ class ViewController: UIViewController {
         CATransaction.setValue(kCFBooleanTrue, forKey: kCATransactionDisableActions)
 //        CATransaction.setValue(interval, forKey: kCATransactionAnimationDuration)
         
-        let myRotationAngle : CGFloat = angle
-//        let myRotationAngle : CGFloat = CGFloat(1/60 * M_PI)
+        let myRotationAngle : CGFloat = clockwise ? angle : angle * -1
         let myRotationTransform : CATransform3D = CATransform3DRotate(subLayer.transform, myRotationAngle, 0.0, 0.0, 1.0)
         subLayer.transform = myRotationTransform;
         
