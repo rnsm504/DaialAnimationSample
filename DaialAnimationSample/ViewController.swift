@@ -146,7 +146,7 @@ class ViewController: UIViewController {
     
     //斜辺算出
     func getHypotenuse(_ point1 : CGPoint, point2 : CGPoint) -> CGFloat {
-        let  radius = CGFloat(sqrt(pow(abs(Double(point2.x - point1.x)), 2) + pow(abs(Double(point2.y - point1.y)),2)))
+        let  radius = CGFloat(sqrt(pow(Double(point2.x - point1.x), 2) + pow(Double(point2.y - point1.y),2)))
         
         return radius
     }
